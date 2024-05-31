@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(26, 140, 207); /* MidnightBlue */
+    color: LightPink; /* LightPink text for contrast */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(137, 58, 198); /* RoyalBlue */
+    color: rgb(255, 35, 104); /* White text for contrast */
+    padding: 20px;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+    background-color: rgb(75, 242, 231); /* LightPink */
+    color: #000000; /* Black text for readability */
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 1500px;
+}
+
+pre {
+    background-color: rgb(225, 66, 153); /* MidnightBlue */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF; /* White border for contrast */
+    white-space: pre-wrap;
+    color: rgb(182, 238, 86); /* LightPink text for contrast */
+    font-size: 21px;
+}
+
+.footer {
+    background-color: rgb(137, 58, 198); /* RoyalBlue */
+    color: rgb(255, 35, 104); /* White text for contrast */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .pg h2 {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: rgb(212, 43, 209); /* MidnightBlue */
+    border-color: rgb(205, 39, 130);
+    color: LightPink; /* LightPink text for contrast */
+}
+
+.btn-secondary {
+    background-color: White; /* White */
+    border-color: White;
+    color: #000000; /* Black text for contrast */
+}

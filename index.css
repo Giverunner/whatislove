@@ -1,0 +1,53 @@
+body {
+    background-color: wheat; /* Light gray background for better readability */
+    color: #4B0082; /* Indigo for main text */
+}
+
+.header {
+    background-color: #800020; /* Burgundy for header background */
+    color: #ffffff; /* White for header text */
+    padding: 20px;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.list-group-item {
+    background-color: #2F4F4F; /* DarkSlateGray for list item background */
+    color: #ffffff; /* White for list item text */
+    border: 1px solid #ffffff; /* White border for list items */
+}
+
+.list-group-item:hover {
+    background-color: #556B2F; /* DarkOliveGreen for hover effect */
+    color: #ffffff; /* White for hovered text */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #800020; /* Burgundy for footer background */
+    color: #ffffff; /* White for footer text */
+    padding: 10px 0;
+}
+
+.pagination .page-link {
+    color: #ffffff; /* White for pagination text */
+    background-color: #4B0082; /* Indigo for pagination background */
+    border: none;
+}
+
+.pagination .page-link:hover {
+    background-color: #483D8B; /* DarkSlateBlue for hover effect */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #556B2F; /* DarkOliveGreen for active page */
+    border-color: #556B2F; /* DarkOliveGreen border for active page */
+}

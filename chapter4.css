@@ -1,0 +1,78 @@
+body {
+    background-color: slateblue; /* DimGray */
+    color: #2F4F4F; /* DarkSlateGray for text readability */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: slategray; /* Indigo */
+    color: White; /* White text for contrast */
+    padding: 20px;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+    background-color: olivedrab; /* ForestGreen */
+    color: White; /* White text for contrast */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1500px;
+}
+
+pre {
+    background-color: orchid; /* DarkOrange */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid White; /* White border for contrast */
+    white-space: pre-wrap;
+    color: White; /* White text for contrast */
+    overflow: auto;
+    font-size: 21px;
+}
+
+.footer {
+    background-color: slategray ;/* Indigo */
+    color: White; /* White text for contrast */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .pg h2 {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: ForestGreen; /* ForestGreen */
+    border-color: ForestGreen;
+    color: White; /* White text for contrast */
+}
+
+.btn-primary:hover {
+    background-color: #228B22; /* Darker shade of ForestGreen */
+    border-color: #228B22;
+}
+
+.btn-secondary {
+    background-color: DarkOrange; /* DarkOrange */
+    border-color: DarkOrange;
+    color: White; /* White text for contrast */
+}
+
+.btn-secondary:hover {
+    background-color: #FF8C00; /* Darker shade of DarkOrange */
+    border-color: #FF8C00;
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: Orange; /* Orange */
+    color: #000000; /* Black text for readability */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(100, 100, 161); /* MediumBlue */
+    color: rgb(253, 213, 70); /* White text for contrast */
+    padding: 20px;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+    background-color: rgb(16, 168, 16); /* ForestGreen */
+    color: White; /* White text for contrast */
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 1500px;
+}
+
+pre {
+    background-color: rgb(220, 126, 193); /* White */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #000000; /* Black border for contrast */
+    white-space: pre-wrap;
+    color: #000000; /* Black text for readability */
+    font-size: 21px;
+}
+
+.footer {
+    background-color: rgb(100, 100, 161); /* MediumBlue */
+    color: rgb(253, 213, 70); /* White text for contrast */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .pg h2 {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: rgb(74, 204, 74); /* ForestGreen */
+    border-color: rgb(45, 183, 45);
+    color: White; /* White text for contrast */
+}
+
+.btn-secondary {
+    background-color: White; /* White */
+    border-color: White;
+    color: #000000; /* Black text for contrast */
+}

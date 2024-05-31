@@ -1,0 +1,64 @@
+body {
+    background-color: #F0E68C; /* Khaki */
+    color: #2F4F4F; /* DarkSlateGray */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #E6E6FA; /* Lavender */
+    color: #2F4F4F; /* DarkSlateGray */
+    padding: 20px;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+    background-color: #D8BFD8; /* Thistle */
+    color: #2F4F4F; /* DarkSlateGray */
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 1500px;
+}
+
+pre {
+    background-color: #E6E6FA; /* Lavender */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #DB7093; /* PaleVioletRed */
+    white-space: pre-wrap;
+    font-size: 21px;
+}
+
+.footer {
+    background-color: #DB7093; /* PaleVioletRed */
+    color: #2F4F4F; /* DarkSlateGray */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .pg h2 {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #D8BFD8; /* Thistle */
+    border-color: #D8BFD8;
+    color: #2F4F4F; /* DarkSlateGray */
+}
+
+.btn-secondary {
+    background-color: #E6E6FA; /* Lavender */
+    border-color: #E6E6FA;
+    color: #2F4F4F; /* DarkSlateGray */
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: #E6E6FA; /* Lavender */
+    color: #2F4F4F; /* DarkSlateGray */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #FFB6C1; /* Blush Pink */
+    color: #2F4F4F; /* DarkSlateGray */
+    padding: 20px;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+    background-color: #87CEEB; /* Sky Blue */
+    color: #2F4F4F; /* DarkSlateGray */
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 1500px;
+}
+
+pre {
+    background-color: #E6E6FA; /* Lavender */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #F4C430; /* Soft Gold */
+    white-space: pre-wrap;
+    font-size: 21px;
+}
+
+.footer {
+    background-color: #F4C430; /* Soft Gold */
+    color: #2F4F4F; /* DarkSlateGray */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .pg h2 {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #87CEEB; /* Sky Blue */
+    border-color: #87CEEB;
+    color: #2F4F4F; /* DarkSlateGray */
+}
+
+.btn-secondary {
+    background-color: #FFB6C1; /* Blush Pink */
+    border-color: #FFB6C1;
+    color: #2F4F4F; /* DarkSlateGray */
+}

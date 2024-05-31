@@ -1,0 +1,65 @@
+body {
+    background-color: DimGray; /* DimGray */
+    color: #2F4F4F; /* DarkSlateGray for text readability */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: Indigo; /* Indigo */
+    color: White; /* White text for contrast */
+    padding: 20px;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+    background-color: ForestGreen; /* ForestGreen */
+    color: White; /* White text for contrast */
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 1500px;
+}
+
+pre {
+    background-color: DarkOrange; /* DarkOrange */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid White; /* White border for contrast */
+    white-space: pre-wrap;
+    color: White; /* White text for contrast */
+    font-size: 21px;
+}
+
+.footer {
+    background-color: Indigo; /* Indigo */
+    color: White; /* White text for contrast */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .pg h2 {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: ForestGreen; /* ForestGreen */
+    border-color: ForestGreen;
+    color: White; /* White text for contrast */
+}
+
+.btn-secondary {
+    background-color: DarkOrange; /* DarkOrange */
+    border-color: DarkOrange;
+    color: White; /* White text for contrast */
+}
